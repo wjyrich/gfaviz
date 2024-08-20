@@ -61,3 +61,10 @@ isEmpty(OGDFDIR){
   LIBS += -L$${OGDFDIR} -lOGDF
 }
 
+target.path = $$PREFIX/bin
+desktop.files = gfaviz.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons
+icons.files = gfaviz.png
+
+INSTALLS += target desktop icons

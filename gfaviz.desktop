@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=gfaviz
+Name=gfaviz
+Name[zh_CN]=gfaviz
+Icon=gfaviz
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=gfaviz
+Version=1.0
